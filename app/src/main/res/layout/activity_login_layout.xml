@@ -80,10 +80,28 @@
         android:text="Cadastrar"
         app:cornerRadius="1dp" />
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/google"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgInsta"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/instagram"
+
+            />
+
+    </RelativeLayout>
 
 
 
