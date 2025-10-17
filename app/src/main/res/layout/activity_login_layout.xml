@@ -20,11 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Seja Bem Vindo"
-        android:textSize="23dp"
-
-
-        />
+        android:text="Seja Bem Vindo!"
+        android:textSize="23dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
@@ -70,20 +67,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        app:cornerRadius="1dp"
         android:backgroundTint="@color/black"
-        android:text="Entrar" />
+        android:text="Entrar"
+        app:cornerRadius="1dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        app:cornerRadius="1dp"
         android:backgroundTint="@color/black"
         android:text="Cadastrar"
-        />
+        app:cornerRadius="1dp" />
 
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/google"
 
 
 
