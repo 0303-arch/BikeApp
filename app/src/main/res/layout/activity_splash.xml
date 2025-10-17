@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=""
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".SplashActivity">
@@ -23,10 +22,15 @@
         android:gravity="center"
         android:textSize="23dp"/>
 
-    <androidx.core.widget.ContentLoadingProgressBar
+    <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        app:trackColor="@color/black"
+        android:indeterminate="true"
+        app:indicatorColor="@color/white"
+        android:progress="@integer/material_motion_duration_long_1"
+        />
 
 
 
