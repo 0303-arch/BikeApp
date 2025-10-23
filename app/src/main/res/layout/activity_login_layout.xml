@@ -12,7 +12,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/bike" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
         app:endIconMode="clear_text"
@@ -57,9 +57,17 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:layout_width="250dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="50px"
+        android:text="Esqueceu sua Senha? Clique Aqui"/>
+
+
+    <TextView
+        android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_gravity="end"
+        android:layout_marginTop="-49dp"
         android:text="Não tem uma conta? Clique em Cadastrar" />
 
     <com.google.android.material.button.MaterialButton
@@ -72,6 +80,7 @@
         android:textColor="@color/white"
         android:text="Entrar"
         app:cornerRadius="1dp" />
+
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
