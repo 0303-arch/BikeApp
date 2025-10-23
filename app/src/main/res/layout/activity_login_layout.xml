@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Seja Bem Vindo!"
-        android:textSize="23dp" />
+        android:text="BIKELIFE"
+        android:textSize="23sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"

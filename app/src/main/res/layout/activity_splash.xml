@@ -20,6 +20,7 @@
         android:layout_height="100dp"
         android:text="BIKELIFE"
         android:gravity="center"
+        android:textColor="#1A1A1D"
         android:textSize="23dp"/>
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
