@@ -27,7 +27,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        app:trackColor="@color/black"
+        app:trackColor="#343131"
         android:indeterminate="true"
         app:indicatorColor="@color/white"
         android:progress="@integer/material_motion_duration_long_1"
