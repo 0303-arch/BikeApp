@@ -60,7 +60,7 @@
         android:layout_width="150dp"
         android:layout_height="45dp"
         android:layout_marginStart="50px"
-        android:text="Esqueceu sua Senha? Clique Aqui"/>
+        android:text="Não lembra sua Senha? Clique Aqui"/>
 
 
     <TextView
