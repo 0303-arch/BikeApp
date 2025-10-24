@@ -17,8 +17,16 @@
         android:layout_marginTop="30dp"
         android:drawableLeft="@drawable/baseline_arrow_circle_left"
         android:text="Voltar"
-        android:textColor="@color/black"
+        android:textColor="#273F4F"
         app:cornerRadius="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIKELIFE"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="300sp"
@@ -123,6 +131,15 @@
         android:backgroundTint="#273F4F"
         android:text="Cadastrar"
         app:cornerRadius="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Continuar"
+        android:textColor="#273F4F"/>
 
 
     <TextView
