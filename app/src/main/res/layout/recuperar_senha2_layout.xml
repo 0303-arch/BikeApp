@@ -34,6 +34,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="40dp"
+        android:textSize="15sp"
         android:text="Por favor, insira sua senha para continuar" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -76,13 +77,15 @@
         app:cornerRadius="0dp" />
 
     <com.google.android.material.button.MaterialButton
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:backgroundTint="#1E3E62"
-        android:text="Login"
-        android:textColor="#FAF7F0"
+        android:layout_marginTop="30dp"
+        android:text="Esqueci minha senha"
+        android:textColor="#273F4F"
         app:cornerRadius="0dp" />
+
 
 
 </LinearLayout>

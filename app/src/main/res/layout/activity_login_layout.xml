@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAF7F0"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -76,8 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/black"
-        android:textColor="@color/white"
+        android:backgroundTint="#1E3E62"
+        android:textColor="#FAF7F0"
         android:text="Entrar"
         app:cornerRadius="1dp" />
 
@@ -87,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#1E3E62"
         android:text="Cadastrar"
         app:cornerRadius="1dp" />
 
