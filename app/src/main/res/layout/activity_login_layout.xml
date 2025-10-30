@@ -58,18 +58,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
+        android:id="@+id/txtRecuperarSenha"
         android:layout_width="150dp"
         android:layout_height="45dp"
-        android:layout_marginStart="50px"
+        android:layout_marginStart="50dp"
         android:text="Não lembra sua Senha? Clique Aqui"/>
 
-
-    <TextView
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:layout_gravity="end"
-        android:layout_marginTop="-49dp"
-        android:text="Não tem uma conta? Clique em Cadastrar" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEntrar"
@@ -84,6 +78,7 @@
 
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
