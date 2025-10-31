@@ -29,7 +29,7 @@
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
         app:endIconMode="clear_text"
@@ -61,11 +61,25 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#1E3E62"
+        android:backgroundTint="#273F4F"
         android:text="Cadastrar"
-        app:cornerRadius="10dp" />
+        app:cornerRadius="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        style="?attr/materialButtonOutlinedStyle"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/baseline_arrow_circle_left"
+        android:text="Voltar"
+        android:textColor="#273F4F"
+        app:cornerRadius="0dp" />
 
 
 </LinearLayout>
