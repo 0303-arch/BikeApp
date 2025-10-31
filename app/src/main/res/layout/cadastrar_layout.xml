@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="#FAF7F0"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAF7F0"
     android:orientation="vertical"
     tools:context=".CadastrarActivity">
 
@@ -61,23 +61,22 @@
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
         android:backgroundTint="#273F4F"
         android:text="Cadastrar"
         app:cornerRadius="0dp" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnVoltar"
         style="?attr/materialButtonOutlinedStyle"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:drawableLeft="@drawable/baseline_arrow_circle_left"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="Voltar"
         android:textColor="#273F4F"
         app:cornerRadius="0dp" />
