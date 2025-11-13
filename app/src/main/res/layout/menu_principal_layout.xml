@@ -53,7 +53,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/logo" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/timer" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -137,7 +137,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/atividades" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -174,7 +174,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/horarios" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -221,7 +221,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/acessorios" />
+                     />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -258,7 +258,7 @@
                     android:layout_width="190dp"
                     android:layout_height="190dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/categorias" />
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"

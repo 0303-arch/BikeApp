@@ -12,13 +12,13 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/bike"
+        android:src="@drawable/f1"
         android:layout_gravity="center_horizontal"/>
 
     <TextView
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:text="BIKELIFE"
+        android:text=""
         android:gravity="center"
         android:textColor="#1A1A1D"
         android:textSize="23dp"/>
