@@ -14,22 +14,14 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:src="@drawable/bike" />
+        android:src="@drawable/f1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="BIKELIFE"
-        android:textColor="@color/black"
-        android:textSize="23sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
         app:endIconMode="clear_text"
@@ -37,7 +29,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,7 +57,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#273F4F"
+        android:backgroundTint="#FF1801"
         android:text="Cadastrar"
         app:cornerRadius="0dp" />
 
@@ -74,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="35dp"
         android:drawableLeft="@drawable/baseline_arrow_circle_left"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"

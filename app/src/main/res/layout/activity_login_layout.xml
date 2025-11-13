@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF7F0"
+    android:background="@drawable/wall"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -14,28 +14,23 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:src="@drawable/bike" />
+        android:src="@drawable/f1" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="BIKELIFE"
-        android:textColor="@color/black"
-        android:textSize="23sp" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
+        app:boxBackgroundColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="55dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/baseline_email">
 
         <com.google.android.material.textfield.TextInputEditText
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -43,6 +38,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtSenha"
+        app:boxBackgroundColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira sua Senha"
@@ -59,6 +55,7 @@
 
     <TextView
         android:id="@+id/txtRecuperarSenha"
+        android:textColor="@color/white"
         android:layout_width="150dp"
         android:layout_height="45dp"
         android:layout_marginStart="50dp"
@@ -67,15 +64,15 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEntrar"
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#1E3E62"
-        android:textColor="#FAF7F0"
+        android:backgroundTint="#FF1801"
         android:text="Entrar"
+        android:textColor="#FAF7F0"
         app:cornerRadius="1dp" />
-
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCadastrar"
@@ -83,12 +80,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="#1E3E62"
+        android:backgroundTint="#000000"
         android:text="Cadastrar"
         app:cornerRadius="1dp" />
 
     <RelativeLayout
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="300dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
