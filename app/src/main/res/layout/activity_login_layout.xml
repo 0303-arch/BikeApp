@@ -17,32 +17,31 @@
         android:src="@drawable/f1" />
 
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
-        app:boxBackgroundColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="55dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
+        app:boxBackgroundColor="@color/black"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/baseline_email">
 
         <com.google.android.material.textfield.TextInputEditText
-
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtSenha"
-        app:boxBackgroundColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira sua Senha"
         android:padding="15dp"
+        app:boxBackgroundColor="@color/black"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/baseline_lock"
 
@@ -50,24 +49,25 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/txtRecuperarSenha"
-        android:textColor="@color/white"
         android:layout_width="150dp"
         android:layout_height="45dp"
         android:layout_marginStart="50dp"
-        android:text="Não lembra sua Senha? Clique Aqui"/>
+        android:text="Não lembra sua Senha? Clique Aqui"
+        android:textColor="@color/white" />
 
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEntrar"
-        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="10dp"
         android:backgroundTint="#FF1801"
         android:text="Entrar"
@@ -85,9 +85,9 @@
         app:cornerRadius="1dp" />
 
     <RelativeLayout
-        android:layout_marginTop="300dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp">
 
         <ImageView
             android:id="@+id/imgInsta"
@@ -112,11 +112,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_gravity="center"
-        android:text="BIKELIFE"
-        />
-
+        android:layout_marginTop="30dp"
+        android:text="BIKELIFE" />
 
 
 </LinearLayout>

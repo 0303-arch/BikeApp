@@ -5,31 +5,37 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF7F0"
+    android:background="@drawable/ferrari"
     android:orientation="vertical"
     tools:context=".CadastrarActivity">
+
+
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
-        android:src="@drawable/f1" />
+        android:src="@drawable/formula1" />
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
+        app:boxStrokeColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="55dp"
         android:hint="Insira seu E-mail"
         android:padding="15dp"
+        app:counterOverflowTextColor="@color/white"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/baseline_email">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -39,6 +45,7 @@
         android:id="@+id/txtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/white"
         android:hint="Insira sua Senha"
         android:padding="15dp"
         app:endIconMode="clear_text"
@@ -48,7 +55,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
@@ -62,8 +70,8 @@
         app:cornerRadius="0dp" />
 
     <com.google.android.material.button.MaterialButton
-        style="?attr/materialButtonOutlinedStyle"
         android:id="@+id/btnVoltar"
+        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -74,6 +82,7 @@
         android:text="Voltar"
         android:textColor="#273F4F"
         app:cornerRadius="0dp" />
+
 
 
 </LinearLayout>
