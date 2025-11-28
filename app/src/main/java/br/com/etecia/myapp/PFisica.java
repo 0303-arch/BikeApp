@@ -4,5 +4,8 @@ public class PFisica {
     int cpf;
 
     Pessoa p = new Pessoa();
-    p.
+    public void executaPessoa(){
+        p.setNome("Etecia");
+        String nome= p.getNome();
+    }
 }
