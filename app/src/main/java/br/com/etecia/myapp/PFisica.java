@@ -1,6 +1,6 @@
 package br.com.etecia.myapp;
 
-public class PFisica {
+public class PFisica extends Pessoa {
     int cpf;
 
     Pessoa p = new Pessoa();
